@@ -21,7 +21,7 @@ This is a simple QR code component that can be used on any website. It is made u
 
 ### Links
 
-- Live Site URL: ()
+- Live Site URL: (https://qrfr.netlify.app/)
 
 ## My process
 
@@ -38,8 +38,8 @@ I learned that CSS can be used to control the layout, fonts, colors, and other v
 ## Author
 
 - Devashish jadhav
-- Frontend Mentor - [@ddevilz](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@dev_j7](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@ddevilz](https://www.frontendmentor.io/profile/@ddevilz)
+- Twitter - [@dev_j7](https://www.twitter.com/@dev_j7)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
