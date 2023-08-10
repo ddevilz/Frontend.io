@@ -22,14 +22,14 @@
     <title>Frontend Mentor | QR code component</title>
 
     <style>
-      *{
+      * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
 
-      body{
-        font-family: 'Outfit', sans-serif;
+      body {
+        font-family: "Outfit", sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -37,29 +37,30 @@
         background-color: hsl(212, 45%, 89%);
       }
 
-      .container{
+      .container {
+        max-width: 20rem;
         text-align: center;
         background-color: hsl(0, 0%, 100%);
         padding: 15px;
-        border-radius: 15px;
+        border-radius: 0.938rem;
         box-shadow: 0 0 10px hsl(220, 15%, 55%);
       }
 
-      img{
-        width: 270px;
-        border-radius: 15px;
+      img {
+        width: 100%;
+        border-radius: 0.938rem;
       }
 
-      h2{
-        font-size: 22px;     
+      h2 {
+        font-size: 1.375rem;
         font-weight: 700;
         margin: 5px 0;
         padding: 5px;
         color: hsl(218, 44%, 22%);
       }
 
-      p{
-        font-size: 15px;
+      p {
+        font-size: 0.938rem;
         padding: 5px;
         margin: 5px 0;
         color: hsl(220, 15%, 55%);
@@ -67,12 +68,17 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <img src="./images/image-qr-code.png" alt="" />
-      <div class="textBox">
-        <h2>Improve your front-end <br> skills by building projects</h2>
-        <p>Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> next level</p>
+    <main>
+      <div class="container">
+        <img src="./images/image-qr-code.png" alt="QR-code-frontendmentor.io" />
+        <div class="textBox">
+          <h2>Improve your front-end skills by building projects</h2>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to next level
+          </p>
+        </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
