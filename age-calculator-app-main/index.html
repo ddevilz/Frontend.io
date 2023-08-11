@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form onsubmit="getAge(event)" class="dateForm">
+          <div class="inputBox day">
+            <label for="day">DAY</label>
+            <input
+              type="number"
+              name="day"
+              id="date"
+              class="dateBox"
+              placeholder="DD"
+            />
+            <small class="error"></small>
+          </div>
+          <div class="inputBox month">
+            <label for="month">MONTH</label>
+            <input
+              type="number"
+              name="month"
+              id="month"
+              class="dateBox"
+              placeholder="MM"
+            />
+            <small class="error"></small>
+          </div>
+          <div class="inputBox year">
+            <label for="year">YEAR</label>
+            <input
+              type="number"
+              name="year"
+              id="year"
+              class="dateBox"
+              placeholder="YYYY"
+            />
+            <small class="error"></small>
+          </div>
+          <button class="btn" type="submit">
+            <img src="./assets/images/icon-arrow.svg" alt="button" />
+          </button>
+        </form>
+        <div id="result">
+          <p class="calcRes">
+            <span class="resNum" id="yearVal">--</span> years
+          </p>
+
+          <p class="calcRes">
+            <span class="resNum" id="monthVal">--</span> months
+          </p>
+
+          <p class="calcRes">
+            <span class="resNum" id="daysVal">--</span> days
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
